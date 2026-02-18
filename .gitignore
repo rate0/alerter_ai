@@ -1,6 +1,3 @@
-# ELK stack (separate repo / large files)
-elk/
-
 # Virtual environment
 .venv/
 venv/

@@ -1,0 +1,37 @@
+# ELK stack (separate repo / large files)
+elk/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Environment variables (SECRETS!)
+.env
+
+# Logs
+*.log
+service.log
+
+# Audit data (may contain sensitive info)
+audit_records.json
+audit.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Byte-compiled
+*.pyc
